@@ -25,3 +25,11 @@ b = 5
 
 print(f"The value of {a} and is {b}")
 print("The value of {} and is {}".format(a,b))
+
+_volume = 56*33*30.5
+print(f"the volume of the box is {_volume}.")
+
+list = 'From firstname.surname@unsw.edu.au Tue Oct 06 10:10:15 2020'
+domain = list.split()[1].split('@')[1]
+
+print(domain)

@@ -12,3 +12,8 @@ a = print(0.2+0.2+0.2)  #0.6000000000000001
 
 
 print(a == 0.6)
+
+import math
+f = 0.2+0.2+0.2
+print(math.isclose(f,0.6))
+
